@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESOL</title>
+    <link rel="stylesheet" href="css/structure.css">
+    <script src="control.js"></script>
+</head>
+
+<body>
+    <div class="N-main-body-pc">
+        <div class="N-main-div-pc">
+            <div class="content-div">
+                <div class="moving-bbj" id="moving-bbj">
+                    <img src="plane.png" class="w-100" alt="" srcset="">
+                </div>
+                <img class="w-100 h-100" src="training-leve-1-gif-bg.gif" alt="" srcset="">
+            </div>
+            <div class='function-div flex-centre'>
+                <div class="large-test N-card" id="notice">
+                    Can you see the (<img class="small-img" src="top-view-house.png"> ) houses? Drive the plane ( <img
+                        class="small-img" src="plane.png">) there.
+                </div>
+                <div class="N-btns">
+                    <div class="w-100 flex-centre">
+                        <div class="N-content-btn" onclick="CallGoBtn('n', 'moving-bbj')">
+                            Go North ^
+                        </div>
+                    </div>
+
+                    <div class="middle-btns">
+                        <div class="N-content-btn" onclick="CallGoBtn('w', 'moving-bbj' )">
+                            Go West
+                        </div>
+                        <div class="N-content-btn" onclick="CallGoBtn('e', 'moving-bbj' )">
+                            Go East >
+                        </div>
+                    </div>
+                    <div class="w-100 flex-centre">
+                        <div class="N-content-btn" onclick="CallGoBtn('s', 'moving-bbj')">
+                            Go South v
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
